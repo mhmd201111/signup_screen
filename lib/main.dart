@@ -1,3 +1,4 @@
+import 'package:firsttask/chat_screen.dart';
 import 'package:firsttask/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
        debugShowCheckedModeBanner: false,
-      home: home_screen(),
+      home: chat_screen(), 
       
     );
   }
